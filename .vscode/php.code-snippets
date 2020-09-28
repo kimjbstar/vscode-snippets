@@ -1,0 +1,10 @@
+{
+    "arrk": {
+		"scope": "php",
+        "prefix": "arrk",
+        "body":[
+            "'${1}' => $${1},"
+        ],
+		"description": "array key"
+    },
+}

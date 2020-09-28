@@ -1,0 +1,10 @@
+{
+    "cons": {
+		"scope": "javascript, *.blade.php",
+        "prefix": "cons",
+        "body":[
+            "console.log('${1}', ${1})"
+        ],
+		"description": "console.log"
+    },
+}

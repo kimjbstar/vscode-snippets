@@ -1,0 +1,18 @@
+{
+    "gid": {
+		"scope": "php",
+        "prefix": "gid",
+        "body":[
+            "$${1:id}_id = \\$request->get('id');"
+        ],
+		"description": "id snippet"
+    },
+    "gp": {
+		"scope": "php",
+        "prefix": "gp",
+        "body":[
+            "$${1} = \\$request->get('${1}');${2}"
+        ],
+		"description": "gp get"
+    },
+}
