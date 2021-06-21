@@ -1,6 +1,6 @@
 {
     "cons": {
-		"scope": "javascript, *.blade.php",
+		"scope": "javascript, *.blade.php, typescript",
         "prefix": "cons",
         "body":[
             "console.log('${1}', ${1})"
